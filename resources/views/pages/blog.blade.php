@@ -2,6 +2,15 @@
 
 @section('title', 'Nusa Jaya Unggul')
 
+@section('masthead')
+    <header class="masthead" style="background: url('{{ asset('assets/img/mastheadblog.jpg') }}') center/cover no-repeat;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="masthead-heading text-uppercase">Bangun Pengetahuan, Bangun Masa Depan</div>
+        </div>
+    </header>
+@endsection
+
 @section('content')
 
 <style>
@@ -54,15 +63,6 @@
     }
 </style>
 
-<!-- Masthead -->
-<header class="masthead">
-    <div class="container">
-        <div class="masthead-subheading">Welcome To Our Studio!</div>
-        <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
-    </div>
-</header>
-
 <!-- Blog Section -->
 <div class="container my-5">
 
@@ -71,7 +71,7 @@
         <div class="col-md-8">
             <a href="{{ url('/isiblog') }}">
                 <div class="headline-left">
-                    <img src="{{ asset('assets/blog1.jpg') }}">
+                    <img src="{{ asset('assets/img/blog1.jpg') }}">
                     <div class="headline-text">
                         <h4>Dosen Unismuh Makassar Kupas Modus Korupsi Jasa Konstruksi dalam Forum Nasional</h4>
                     </div>
@@ -81,7 +81,7 @@
         <div class="col-md-4 d-flex flex-column gap-3">
             <a href="{{ url('/isiblog') }}">
                 <div class="headline-right-small">
-                    <img src="{{ asset('assets/blog2.jpeg') }}">
+                    <img src="{{ asset('assets/img/blog2.jpeg') }}">
                     <div class="headline-text-sm">
                         <p class="mb-0">KPK Tahan Dua Tersangka Korupsi Dana PEN di Situbondo</p>
                     </div>
@@ -89,7 +89,7 @@
             </a>
             <a href="{{ url('/isiblog') }}">
                 <div class="headline-right-small">
-                    <img src="{{ asset('assets/blog3.jpeg') }}">
+                    <img src="{{ asset('assets/img/blog3.jpeg') }}">
                     <div class="headline-text-sm">
                         <p class="mb-0">Kasus Korupsi Jerat Gubernur Kalsel Sahbirin Noor</p>
                     </div>
@@ -115,7 +115,7 @@
             <div class="col-md-4 my-3">
                 <a href="{{ url('/isiblog') }}" class="text-decoration-none text-dark">
                     <div class="card blog shadow-sm">
-                        <img src="{{ asset('assets/' . $blog['img']) }}" class="img-card-blog">
+                        <img src="{{ asset('assets/img/' . $blog['img']) }}" class="img-card-blog">
                         <div class="p-3">
                             <h5>{{ $blog['title'] }}</h5>
                             <p>Ini adalah deskripsi singkat artikel.</p>

@@ -11,7 +11,7 @@
         <p class="text-muted">Dipublikasikan pada {{ date('d M Y') }}</p>
         <hr>
         <div class="row text-center">
-            <img src="{{ asset('assets/blog1.jpg') }}">
+            <img src="{{ asset('assets/img/blog1.jpg') }}">
         </div>
         <div class="mt-4">
             <p>
