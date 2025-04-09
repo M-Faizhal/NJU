@@ -10,7 +10,7 @@
         <h1 class="mb-3">Dosen Unismuh Makassar Kupas Modus Korupsi Jasa Konstruksi dalam Forum Nasional</h1>
         <p class="text-muted">Dipublikasikan pada {{ date('d M Y') }}</p>
         <hr>
-
+        <img src="{{ asset('assets/blog1.jpg') }}">
         <div class="mt-4">
             <p>
                 UNISMUH.AC.ID, MAKASSAR – Dr. Ir. Muhammad Syarif, ST, MT, MM, MH, IPM, MPU, ASEAN Eng., seorang ahli hukum kontrak sekaligus ahli konstruksi dari Fakultas Teknik Universitas Muhammadiyah (Unismuh) Makassar, akan menjadi pembicara tunggal dalam acara Sharing Session Forum A20 #9.
